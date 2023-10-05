@@ -54,5 +54,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "first test successfull" 
+      - run: echo "welcome ${{name1}} and ${{name2}}" 
 
