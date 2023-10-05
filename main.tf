@@ -1,3 +1,3 @@
 terraform {
-  "environment_name": "staging"
+  environment_name: "staging"
 }
