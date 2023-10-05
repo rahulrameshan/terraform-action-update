@@ -47,7 +47,9 @@ name: 'Terraform'
 on:
   push:
     branches: [ "main" ]
-  pull_request:
+  repository_dispatch:
+    types: [custom_event_type]
+  #pull_request:
 
 permissions:
   contents: read
