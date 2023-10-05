@@ -54,5 +54,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "welcome ${{name1}} and ${{name2}}" 
+      - run: echo "welcome ${{github.event.client_payload.name1}} and ${{github.event.client_payload.name2}}" 
 
